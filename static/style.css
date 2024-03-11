@@ -1,0 +1,51 @@
+html, body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#esqizq, #info {
+  position: fixed;
+  padding: 0.5rem;
+  box-shadow: 0 0 4px 1px black;
+  z-index: 999;
+  background-color: darkblue; 
+  color: yellow; 
+}
+
+#esqizq {
+  top: 1rem;
+  right: 1rem;
+}
+
+#tabla-container {
+  position: absolute;
+  left: 10px; 
+  top: 0;
+  padding: 10px; 
+  background-color: darkblue; 
+  color: yellow; 
+  z-index: 1000; 
+}
+
+#listado {
+  margin-top: 20px;
+}
+
+.item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(28, 79, 155);
+}
+#mapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; 
+}
+
+
+/*# sourceMappingURL=style.css.map */
